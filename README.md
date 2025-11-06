@@ -18,6 +18,8 @@ Todo that, we need to explore the data provided using our knowledge of plotting,
 - Vehicle Age and Odometer Reading: As expected, older cars with higher mileage tend to have lower prices. These are strong negative predictors of price.
 
 ## Recomendation
-**Based on our analysis of the key price drivers, here are some recommendations for the used car dealership:**
-- Inventory Focus: Consider stocking more diesel trucks, pickups, and SUVs, especially from manufacturers with higher positive coefficients (e.g., Toyota, Honda, Ram, GMC, BMW).
-.
+**Based on the analysis:**
+Accuracy: Logistic Regression and SVM (Linear Kernel) generally showed higher accuracy on both unscaled and scaled data.
+F1-score: KNN (Scaled) achieved the highest F1-score, indicating a good balance between precision and recall for identifying subscriptions.
+Precision: SVM (Linear Kernel, Scaled) and Logistic Regression (Scaled) had the highest precision, useful for minimizing false positives.
+Recall: KNN (Scaled) and Decision Tree (Scaled) generally showed higher recall, useful for identifying more true positives.
