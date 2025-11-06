@@ -1,6 +1,7 @@
 # Will a Bank Client Subscribe a Term Deposit
 Comparing Classifiers to predict if Portuguese banks clients will subscribe a term deposit 
-**Assignment Jupyter Notebook URL Address:** https://github.com/zaboush/Model_11_Assignment_11p1/blob/main/prompt_II_091725.ipynb
+**Assignment Jupyter Notebook URL Address:** https://github.com/zaboush/Model_17_Assignment_17p1/blob/main/Model_17_Assignment_17p1.ipynb
+## Note: I couldn't executethe code using Jupyter notebook dur to the limited resources, therefore used Colab instead.
 ## Project Objectives
 The goal of this project is to compare the performance of the classifiers (k-nearest neighbors, logistic regression, decision trees, and support vector machines) we encountered in this section of the program. We will use a dataset related to the marketing of bank products over the telephone.
 ## Data Description
