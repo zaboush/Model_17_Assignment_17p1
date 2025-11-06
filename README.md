@@ -26,10 +26,10 @@ euribor3m and nr.employed: These economic indicators show noticeable differences
 These features exhibit clear variations in distribution based on the target variable 'y', making them potentially strong predictors.
 ## Modelling and Models Comparison
 **Creating models and comparing their performance involved the following steps:**
-Splitting the data: Divided the data into training and testing sets.
-Establishing a baseline model: Calculated the baseline accuracy based on the majority class.
-Building and scoring models: Trained and evaluated Logistic Regression, KNN, Decision Tree, and SVM (with linear kernel) models.
-Model Comparisons: Compared the performance of the models using accuracy, precision, recall, and F1-score on both unscaled and scaled data. Visualized the accuracy comparison of scaled models.
+- Splitting the data: Divided the data into training and testing sets.
+- Establishing a baseline model: Calculated the baseline accuracy based on the majority class.
+- Building and scoring models: Trained and evaluated Logistic Regression, KNN, Decision Tree, and SVM (with linear kernel) models.
+- Model Comparisons: Compared the performance of the models using accuracy, precision, recall, and F1-score on both unscaled and scaled data. Visualized the accuracy comparison of scaled models.
 ## Recomendation
 **Based on the analysis:**
 - Accuracy: Logistic Regression and SVM (Linear Kernel) generally showed higher accuracy on both unscaled and scaled data.
